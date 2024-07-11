@@ -8,7 +8,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #333;
+    background-color: red; /* Changed to red */
 }
 
 nav ul li {
@@ -44,6 +44,7 @@ nav ul li a:hover {
 .product-form, .user-form {
     margin-bottom: 20px;
 }
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -139,6 +140,7 @@ nav ul li a:hover {
 .delete-button:hover {
     background-color: #ff3a3a;
 }
+
 /* Modal styles */
 .modal {
     display: none;
@@ -176,4 +178,3 @@ nav ul li a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-
